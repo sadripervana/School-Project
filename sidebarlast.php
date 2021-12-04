@@ -32,33 +32,24 @@
                     while ($row = mysqli_fetch_assoc($result)){
 
                       echo '
-
-                        <article class="article">
+                      <article class="article">
                           <div class="card">
-
-                      <div class="overflow-img " >
-
-
-
-                        <a href="#">
-                       <img src="./img/gallery/'.$row['imgFULLNameGallery'].'" class="img-fluid"">
-                        </a>
-                        </div>
-                        <div class="card-body text-center px-1">
-                       <a href="#" class="text-title display-1 text-dark">
-                         <h3>'.$row['titleGallery'].'</h3>
-                       </a>
-                       <p class="secondary-title text-secondary display-3">
-                         <span><i class="far fa-comments text-primary"></i><p>'.$row['descGallery'].'</p></span>
-                         <span><i class="fa fa-list-ol" text-primary aria-hidden="true"></i> '.$row['orderGallery'].'</span>
-                       </p>
-                       </div>
-                       </div>
-                       </article>
-
-                        ';
-
-                  }
+                            <div class="overflow-img " >
+                              <a href="#"><img src="./img/gallery/'.$row['imgFULLNameGallery'].'" class="img-fluid"">
+                              </a>
+                            </div>
+                            <div class="card-body text-center px-1">
+                              <a href="#" class="text-title display-1 text-dark">
+                              <h3>'.$row['titleGallery'].'</h3>
+                              </a>
+                              <p class="secondary-title text-secondary display-3">
+                                <span><i class="far fa-comments text-primary"></i><p>'.$row['descGallery'].'</p></span>
+                                <span><i class="fa fa-list-ol" text-primary aria-hidden="true"></i> '.$row['orderGallery'].'</span>
+                              </p>
+                            </div>
+                          </div>
+                        </article>';
+                    }
                 }
               }
 
@@ -93,10 +84,6 @@
                   <a href="#" class="nav-link "><i class="fab fa-facebook-f"></i></a>
                   <a href="#" class="nav-link "><i class="fab fa-twitter"></i></a>
                   <a href="#" class="nav-link "><i class="fab fa-instagram"></i></a>
-                  <a href="#" class="nav-link "><i class="fab fa-dribbble"></i></a>
-
-
-
                 </div>
               </div>
             </div>
