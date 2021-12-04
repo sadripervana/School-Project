@@ -27,12 +27,12 @@
      if($fileError === 0){
        if($fileSize < 20000000){
          $imageFullName = $newFileName.".".uniqid("",true).".".$fileActualExt;//uniq id...//more karakter than default with true with false kreate smaller uniq id//include file extention
-         $fileDestination = "../img/gallery/".$imageFullName;
+         $fileDestination = "../img/index/".$imageFullName;
 
          include_once 'dbh.inc.php';
 
          if(empty($imageTitle) || empty($imageDesc)){
-           header("Location : ../gallery.php?upload=empty");
+           header("Location : ../index.php?upload=empty");
            exit(); //ndalon skriptin
          } else {
            $sql = "SELECT * FROM gallery;";
@@ -55,7 +55,7 @@
 
                 move_uploaded_file($fileTempName, $fileDestination);
 
-                header("Location: ../gallery.php?uploadsuccess");
+                header("Location: ../index.php?uploadsuccess");
               }
            }
          }

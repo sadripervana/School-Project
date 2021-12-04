@@ -28,7 +28,7 @@ session_start();
   <!-- Header -->
   <header id="header" class="shadow bg-light">
     <nav class="container navbar">
-      <a href="gallery.php" class="nav-brand text-dark">
+      <a href="index.php" class="nav-brand text-dark">
         Agjensi Udhetimi
       </a>
 
@@ -41,7 +41,7 @@ session_start();
       <!-- collapse on toggle button click -->
       <div class="collapse">
         <ul class="navbar-nav">
-          <a href="gallery.php" class="nav-link">Home</a>
+          <a href="index.php" class="nav-link">Home</a>
           <a href="#" class="nav-link">Blog</a>
           <a href="#" class="nav-link">Pages</a>
           <a href="#" class="nav-link">Categories</a>
@@ -64,7 +64,7 @@ session_start();
         <ul class="navbar-nav">
           <div class="search-box">
             <form  action="sidebar.php" method="post">
-              <input type="text" name="search" value="" placeholder="Search">
+              <input type="text" name="search"  placeholder="Search">
             <button type="submit" name="submit-search"><i class="fas fa-search"></button></i>
           </form>
 
@@ -72,7 +72,6 @@ session_start();
           <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
           <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
           <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
         </ul>
       </div>
     </nav>

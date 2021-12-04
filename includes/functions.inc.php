@@ -104,6 +104,7 @@ function emptyInputLogin($username, $pwd) {
   }
 
   $pwdHashed = $uidExists["usersPwd"];
+  // $checkedPwd = true;
   $checkPwd = password_verify($pwd, $pwdHashed);
 
   if($checkPwd === false){
@@ -113,7 +114,7 @@ function emptyInputLogin($username, $pwd) {
     session_start();
     $_SESSION["userid"] =  $uidExists["usersId"];
     $_SESSION["useruid"] =  $uidExists["usersUid"];
-    header("Location: ../gallery.php");
+    header("Location: ../index.php");
     exit();
   }
 }

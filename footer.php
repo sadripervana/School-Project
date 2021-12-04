@@ -106,7 +106,7 @@
                 <a href="#">
                   <img src="./assets/img9.jpg" class="object-fit px-1" alt="">
                   <div class="px-1">
-                    <a href="#" class="text-title display -2 text-dark">
+                    <a href="#" class="text-title display-2 text-dark">
                       Looking for some feedback fo this rejected track technology
                     </a>
                     <p class="secondary-title text-secondary dsiplay-3">
@@ -177,8 +177,6 @@
             <a href="#" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
             <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="nav-link btn bg-light"><i class="fab fa-dribbble"></i></a>
-
           </div>
         </div>
       </div>
@@ -189,7 +187,7 @@
   <!-- copyrights -->
   <div class="copyrights">
     <p class="text-center text-secondary">
-      2021 <a href="#" class="text-primary">SADRI PERVANA & REI BOGDANI & Mario</a>-Personal Blog Theme.All rights reserved.
+      2021 <a href="#" class="text-primary">SADRI PERVANA </a>-Personal Blog Theme.All rights reserved.
     </p>
   </div>
   </div>
